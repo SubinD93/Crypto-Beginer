@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+.header {
+    background-color: rgba(30, 2, 56, 0.74)!important;;
+    padding: 30px;
+    border-bottom: 2px solid #33115596;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+.header__logo {
+font-family: 'Permanent Marker', cursive;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-decoration: none;
+padding-left: 50px;
+transition: 1s;
+}
+.header__logo:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 194, 31);
+}
+.header__nav {
+    padding-right: 70px;
+}
+
+.link {
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EBDCB2;
+    font-family: 'Inter', sans-serif;
+}
+.link:hover{
+    opacity: .6;
+}
+
+/* main--------------------------main------------------------------main */
+
+
+
+.main {
+   background-color: #EBDCB2;
+   background: url(https://oir.mobi/uploads/posts/2021-03/1616542929_29-p-temno-fioletovii-fon-38.jpg) 0 0/100% 100% no-repeat;
+  
+
+}
+.main__container {
+}
+.container {
+    max-width: 1300px;
+    margin: 0 200px;
+    
+}
+.main__body {
+    padding-top: 70px;
+    text-align: center;
+    align-items: center;
+}
+.body__text {
+    padding: 30px;
+    color: rgba(230, 234, 236, 0.993);
+}
+.body__img {
+    padding: 30px;
+}
+.text-top{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+}
+.text-bottom{
+    
+
+font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+}
+.bitcoin{
+    height: 250px;
+    width: 250px;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
