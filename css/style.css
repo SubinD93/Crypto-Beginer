@@ -14,13 +14,13 @@ body{
     padding: 10px 15px;
 }
 .header__logo {
-font-family: 'Permanent Marker', cursive;
-font-weight: 700;
-font-size: 64px;
-line-height: 77px;
-text-decoration: none;
-padding-left: 50px;
-transition: 1s;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-decoration: none;
+    padding-left: 50px;
+    transition: 1s;
 }
 .header__logo:hover{
     transform: scale(1.1);
@@ -52,8 +52,6 @@ a{
 .main {
    background-color: #EBDCB2;
    background: url(https://oir.mobi/uploads/posts/2021-03/1616542929_29-p-temno-fioletovii-fon-38.jpg) 0 0/100% 100% no-repeat;
-  
-
 }
 .main__container {
 }
@@ -76,15 +74,13 @@ a{
 }
 .text-top{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 130%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
 }
 .text-bottom{
-    
-
-font-family: 'Inter';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -106,4 +102,28 @@ font-family: 'Inter';
     100% {
         transform: rotate(360deg);
     }
+}
+
+.bitcoin-allgrafics {
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bitcoin-img2 {
+    height: 400px;
+    width: 700px;
+    border: 10px solid rgba(112, 7, 160, 0.596);
+}
+
+.block-text {
+    display: flex;
+}
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: aliceblue;
 }
